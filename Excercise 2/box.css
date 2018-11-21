@@ -1,0 +1,63 @@
+#main{
+    width: 500px;
+    height: 570px;
+    border: 1px solid black;
+}
+
+#box1 {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    background: red;
+    border: 1px solid black;
+    -webkit-transition: width 3s; 
+    transition: width 3s;
+}
+#box1:hover {
+    width: 500px;
+}
+
+#box2{
+    margin-top: 10px;
+     width: 100px;
+    height: 100px;
+    background: blue;
+     border: 1px solid black;
+}
+#box2:hover {
+     transform: translate(100px, 200px); /*x changes by 100px; y changes by 200px*/
+}
+
+#box3{
+    margin-top: 10px;
+     width: 100px;
+     height: 100px;
+     background: green;
+     border: 1px solid black;
+}
+#box3:hover {
+     transform: rotate(360deg);
+	-webkit-transform: rotate(360deg); 
+}
+
+#box4{
+    margin-top: 10px;
+     width: 100px;
+     height: 100px;
+     background: purple;
+     border: 1px solid black;
+}
+#box4:hover {
+     transform: scale(1, 2); /*x doesn’t change and y scales by 2*/
+}
+
+#box5{
+    margin-top: 10px;
+     width: 100px;
+     height: 100px;
+     background: brown;
+     border: 1px solid black;
+}
+#box5:hover {
+     transform: scale(1, 2) rotate(360deg) translate(400px, 400px);
+}
