@@ -1,0 +1,45 @@
+ul.a {
+        padding: 10px;
+    list-style-type: none;
+}
+
+form{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+ul li{
+        border-top : .1px solid #eee;
+padding: 20px 20px 0px 0px;
+     
+}
+
+ 
+
+button{
+   margin-left: 250px;
+    height: 30px;
+    padding: 6px;
+    background: green;
+    color: white;
+}
+input , textarea{
+margin-left: 50px;
+    border-radius: 5px;
+   box-shadow: 0px 0px 3px #ccc, 0 10px 20px #eee inset;
+}
+ 
+input{
+    height: 20px;
+}
+label{
+    float:left;
+    width: 200px;
+}
+
+input:focus{
+    background: white;
+}
+input:focus:invalid{border-color:red;}
+
+input:focus:valid{border-color:green;}
