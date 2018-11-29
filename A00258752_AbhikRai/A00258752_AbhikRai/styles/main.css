@@ -1,0 +1,72 @@
+html{
+    background-color: #006666;
+}
+
+body{
+    width: 800px;
+     font-family: "Arial";
+    background-color: #eeeeee;
+    border: 10px dashed gray;
+    padding: 15px 25px;
+    margin:15px auto;
+}
+
+header{
+    height: 90px;
+    padding-bottom: 2em;
+    font-family: "Georgia";
+    font-style: italic;
+}
+
+header img{
+    float: right;
+}
+
+header h1{
+    color: #006666;
+    font-size: 200%;
+    margin-left: 2em;
+}
+
+header h2{
+    color: gray;
+    font-size: 150%;
+    margin-left: 5em;
+}
+
+nav{
+    margin-bottom: 1em;
+    font-size: 125%;
+    font-weight: bold;
+    border: 2px solid #006666;
+    padding: 6px 0px;
+}
+
+nav a{
+    padding: 7px 27px;
+    text-decoration: none;
+    color: #990000;
+}
+
+.border{
+    border-right:  2px solid #006666;
+}
+
+section{
+    margin:0;
+    padding: 5px;
+    background-color: lightgray;    
+}
+
+footer{
+    margin-top: 1.5em;
+    border-top:  3px solid #006666;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.right{
+    text-align: center;
+    color: gray;
+    font-size: 80%;
+}
